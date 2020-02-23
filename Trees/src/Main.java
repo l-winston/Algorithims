@@ -19,7 +19,20 @@ public class Main {
     }
 
     boolean isTreeSymmetric(Tree<Integer> t) {
-        return equals(t.left, reverse(t.right));
+        return treeEquals(t.left, reverse(t.right));
+    }
+
+    Tree<Integer> reverse(Tree<Integer> t){
+        if(t == null)
+            return null;
+        Tree<Integer> temp = t.left;
+        t.left = t.right;
+        t.right = temp;
+
+        reverse(t.left);
+        reverse(t.right);
+
+        return t;
     }
 
 
