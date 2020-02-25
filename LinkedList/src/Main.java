@@ -74,4 +74,37 @@ public class Main {
 
         return prev;
     }
+
+    ListNode<Integer> reverseNodesInKGroups(ListNode<Integer> l, int k) {
+        ListNode<Integer> ret = null;
+        ListNode<Integer> start = l;
+
+        ListNode<Integer> prev = null;
+        ListNode<Integer> curr = l;
+        ListNode<Integer> next = null;
+
+        while(true){
+
+            prev = null;
+            next = null;
+
+            int c = 0;
+
+            while(curr != null && c < k){
+                next = curr.next;
+                curr.next = prev;
+                prev = curr;
+                curr = next;
+
+                c++;
+            }
+
+            if(ret == null)
+                ret = prev;
+
+            start.next = curr;
+        }
+
+        return ret;
+    }
 }
