@@ -99,8 +99,10 @@ public class Main {
                 c++;
             }
 
-            if(ret == null)
+            if(ret == null) {
                 ret = prev;
+                break;
+            }
 
             start.next = curr;
         }
