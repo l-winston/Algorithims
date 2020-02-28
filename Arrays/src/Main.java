@@ -1,9 +1,6 @@
 import java.util.HashSet;
 
 public class Main {
-    public static void main(String[] args){
-
-    }
 
     int firstDuplicate(int[] a) {
         HashSet<Integer> seen = new HashSet<Integer>();
@@ -22,4 +19,8 @@ public class Main {
         return '_';
     }
 
+    public static void main(String[] args){
+
+
+    }
 }
