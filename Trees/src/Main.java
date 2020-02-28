@@ -10,9 +10,7 @@ public class Main {
 
     boolean hasPathWithGivenSum(Tree<Integer> t, int s) {
         if(t == null)
-            return false;
-        if(t.value == s)
-            return true;
+            return s == 0;
         return hasPathWithGivenSum(t.left, s-t.value) || hasPathWithGivenSum(t.right, s-t.value);
     }
 
