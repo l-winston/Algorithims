@@ -9,17 +9,17 @@ public class Main {
     }
 
     boolean hasPathWithGivenSum(Tree<Integer> t, int s) {
-        if(t == null)
-            return s == 0;
-        if(t.left == null && t.right == null)
+        if(t == null) return false;
+
+        if(t.left == null && t.right == null) {
             return s == t.value;
-        if(t.left != null)
-            if(hasPathWithGivenSum(t.left, s-t.value))
-                return true;
-        if(t.right != null)
-            if(hasPathWithGivenSum(t.right, s-t.value))
-                return true;
-        return false;
+        }
+
+        return hasPathWithGivenSum(t.left, s-t.value) || hasPathWithGivenSum(t.right, s-t.value);
+    }
+
+    boolean isTreeSymmetric(Tree<Integer> t) {
+        return equals(t.left, reverse(t.right));
     }
 
 

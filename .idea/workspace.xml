@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc568d67-b23c-4850-a41a-ec0553b463c4" name="Default Changelist" comment="">
+    <list default="true" id="fc568d67-b23c-4850-a41a-ec0553b463c4" name="Default Changelist" comment="cleaner">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Trees/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/src/Main.java" afterDir="false" />
     </list>
@@ -32,7 +32,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="138" />
-          <entry key="PLAIN_TEXT" value="197" />
+          <entry key="PLAIN_TEXT" value="218" />
         </counts>
       </usages-collector>
     </session>
@@ -60,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Trees/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="225">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
                 <element signature="e#62#63#0" expanded="true" />
                 <element signature="e#95#96#0" expanded="true" />
@@ -100,9 +100,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-26" />
+    <option name="x" value="17" />
     <option name="y" value="23" />
-    <option name="width" value="1920" />
+    <option name="width" value="1392" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectView">
@@ -159,7 +159,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582929633157" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583038492684" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -285,14 +285,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582928609835</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="solution fixed">
+      <created>1582929639179</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1582929639179</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-26" y="23" width="1920" height="877" extended-state="0" />
+    <frame x="17" y="23" width="1392" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.122470714" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17037037" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -309,7 +316,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.12883435" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.12866242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -335,7 +342,9 @@
     <MESSAGE value="added tree class" />
     <MESSAGE value="hasPathWithGivenSum" />
     <MESSAGE value="improve solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="improve solution" />
+    <MESSAGE value="solution fixed" />
+    <MESSAGE value="cleaner" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaner" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Arrays/src/Arrays.java" />
@@ -358,8 +367,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Trees/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="225">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
             <element signature="e#62#63#0" expanded="true" />
             <element signature="e#95#96#0" expanded="true" />
