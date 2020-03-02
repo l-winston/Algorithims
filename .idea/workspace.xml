@@ -31,7 +31,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="140" />
-          <entry key="PLAIN_TEXT" value="279" />
+          <entry key="PLAIN_TEXT" value="300" />
         </counts>
       </usages-collector>
     </session>
@@ -160,7 +160,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583076899184" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583076913876" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -307,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580360198042</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added graphs package">
+      <created>1583076909337</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1583076909337</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -360,7 +367,8 @@
     <MESSAGE value="cleaner" />
     <MESSAGE value="added istreesymmetric" />
     <MESSAGE value="added heaps stacks queues package" />
-    <option name="LAST_COMMIT_MESSAGE" value="added heaps stacks queues package" />
+    <MESSAGE value="added graphs package" />
+    <option name="LAST_COMMIT_MESSAGE" value="added graphs package" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Arrays/src/Arrays.java" />

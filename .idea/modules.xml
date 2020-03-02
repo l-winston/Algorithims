@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/HeapsStacksQueues/HeapsStacksQueues.iml" filepath="$PROJECT_DIR$/HeapsStacksQueues/HeapsStacksQueues.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinkedLists/LinkedLists.iml" filepath="$PROJECT_DIR$/LinkedLists/LinkedLists.iml" />
       <module fileurl="file://$PROJECT_DIR$/Trees/Trees.iml" filepath="$PROJECT_DIR$/Trees/Trees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TreesAdvanced/TreesAdvanced.iml" filepath="$PROJECT_DIR$/TreesAdvanced/TreesAdvanced.iml" />
     </modules>
   </component>
 </project>
