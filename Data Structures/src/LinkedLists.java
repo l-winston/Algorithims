@@ -1,4 +1,4 @@
-public class Main {
+public class LinkedLists {
     // Singly-linked lists are already defined with this interface:
     class ListNode<T> {
         ListNode(T x) {

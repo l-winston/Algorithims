@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-public class Main {
+public class Arrays {
 
     int firstDuplicate(int[] a) {
         HashSet<Integer> seen = new HashSet<Integer>();

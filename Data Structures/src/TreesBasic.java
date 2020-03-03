@@ -1,4 +1,4 @@
-public class Main {
+public class TreesBasic {
     class Tree<T> {
         Tree(T x) {
             value = x;
