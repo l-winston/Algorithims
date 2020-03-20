@@ -35,6 +35,12 @@ public class TreesBasic {
         return t;
     }
 
+    boolean treeEquals(Tree<Integer> a, Tree<Integer> b){
+        if(a == null && b == null)
+            return true;
+        return a.value == b.value && treeEquals(a.left, b.left) && treeEquals(a.right, b.right);
+    }
+
 
     public static void main(String[] args){
 
