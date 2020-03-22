@@ -1,6 +1,4 @@
-import java.util.HashMap;
-import java.util.TreeMap;
-import java.util.TreeSet;
+import java.util.*;
 
 public class HashTables {
 
@@ -60,5 +58,27 @@ public class HashTables {
         }
         System.out.print(rev);
         return true;
+    }
+
+    boolean containsCloseNums(int[] nums, int k) {
+        HashMap<Integer, ArrayList<Integer>> map = new HashMap<>();
+        for(int i = 0; i < nums.length; i++){
+            if(!map.keySet().contains(new Integer(nums[i]))){
+                map.put(nums[i], new ArrayList<Integer>());
+                map.get(nums[i]).add(i);
+            }else{
+                map.get(nums[i]).add(i);
+            }
+        }
+
+        for(int i : map.keySet()){
+            ArrayList<Integer> ar = map.get(i);
+            Collections.sort(ar);
+            for(int j = 0; j < ar.size()-1; j++){
+                if(ar.get(j+1) - ar.get(j) <= k)
+                    return true;
+            }
+        }
+        return false;
     }
 }
