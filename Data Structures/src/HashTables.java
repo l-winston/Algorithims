@@ -61,24 +61,17 @@ public class HashTables {
     }
 
     boolean containsCloseNums(int[] nums, int k) {
-        HashMap<Integer, ArrayList<Integer>> map = new HashMap<>();
+        HashMap<Integer, Integer> map = new HashMap<>();
         for(int i = 0; i < nums.length; i++){
             if(!map.keySet().contains(new Integer(nums[i]))){
-                map.put(nums[i], new ArrayList<Integer>());
-                map.get(nums[i]).add(i);
+                map.put(nums[i], i);
             }else{
-                map.get(nums[i]).add(i);
-            }
-        }
-
-        for(int i : map.keySet()){
-            ArrayList<Integer> ar = map.get(i);
-            Collections.sort(ar);
-            for(int j = 0; j < ar.size()-1; j++){
-                if(ar.get(j+1) - ar.get(j) <= k)
+                if(Math.abs(map.get(nums[i]) - i) <= k)
                     return true;
+                map.put(nums[i], i);
             }
         }
         return false;
     }
+
 }
