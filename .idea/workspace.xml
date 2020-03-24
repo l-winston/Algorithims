@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc568d67-b23c-4850-a41a-ec0553b463c4" name="Default Changelist" comment="added recursive implementation of treeEquals">
-      <change afterPath="$PROJECT_DIR$/Sorting and Searching/Sorting and Searching.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures/src/TreesBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/src/TreesBasic.java" afterDir="false" />
-    </list>
+    <list default="true" id="fc568d67-b23c-4850-a41a-ec0553b463c4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +13,7 @@
     <session id="-1740457934">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="1" />
@@ -34,8 +30,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="534" />
-          <entry key="PLAIN_TEXT" value="432" />
+          <entry key="JAVA" value="541" />
+          <entry key="PLAIN_TEXT" value="515" />
         </counts>
       </usages-collector>
     </session>
@@ -56,7 +52,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data Structures/src/TreesBasic.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="570">
@@ -65,11 +61,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Data Structures/src/HashTables.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            <state relative-caret-position="630">
+              <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+              <folding>
+                <element signature="e#511#519#0" expanded="true" />
+                <element signature="e#147#163#0" expanded="true" />
+                <element signature="e#539#555#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,12 +132,13 @@
         <option value="$PROJECT_DIR$/Data Structures/src/LinkedLists.java" />
         <option value="$PROJECT_DIR$/Data Structures/src/Trees.java" />
         <option value="$PROJECT_DIR$/Data Structures/src/TreesBasic.java" />
+        <option value="$PROJECT_DIR$/Data Structures/src/HashTables.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1709" />
-    <option name="y" value="-80" />
+    <option name="x" value="-3477" />
+    <option name="y" value="-71" />
     <option name="width" value="1392" />
     <option name="height" value="873" />
   </component>
@@ -353,14 +355,42 @@
       <option name="project" value="LOCAL" />
       <updated>1583269028510</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="solved areFollowingPatterns">
+      <created>1584739117580</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1584739117580</updated>
+    </task>
+    <task id="LOCAL-00021" summary="solved groupingDishes">
+      <created>1584820281922</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1584820281922</updated>
+    </task>
+    <task id="LOCAL-00022" summary="solved containsCloseNums">
+      <created>1584916424699</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1584916424699</updated>
+    </task>
+    <task id="LOCAL-00023" summary="improved containsCloseNums solution">
+      <created>1585003074033</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1585003074033</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1709" y="-80" width="1392" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17481482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17481482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -412,7 +442,11 @@
     <MESSAGE value="added reverse tree method" />
     <MESSAGE value="restructured project" />
     <MESSAGE value="added recursive implementation of treeEquals" />
-    <option name="LAST_COMMIT_MESSAGE" value="added recursive implementation of treeEquals" />
+    <MESSAGE value="solved areFollowingPatterns" />
+    <MESSAGE value="solved groupingDishes" />
+    <MESSAGE value="solved containsCloseNums" />
+    <MESSAGE value="improved containsCloseNums solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved containsCloseNums solution" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Arrays/src/Arrays.java" />
@@ -422,22 +456,8 @@
     <entry file="file://$PROJECT_DIR$/Arrays/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/LinkedLists/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/Trees/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/Data Structures/src/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data Structures/src/LinkedLists.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structures/src/HashTables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data Structures/src/TreesAdvanced.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -453,6 +473,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Data Structures/src/TreesBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Structures/src/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Data Structures/src/Graphs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -460,10 +494,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structures/src/TreesBasic.java">
+    <entry file="file://$PROJECT_DIR$/Data Structures/src/HashTables.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="630">
+          <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+          <folding>
+            <element signature="e#511#519#0" expanded="true" />
+            <element signature="e#147#163#0" expanded="true" />
+            <element signature="e#539#555#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

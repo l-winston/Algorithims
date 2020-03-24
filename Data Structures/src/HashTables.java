@@ -74,4 +74,19 @@ public class HashTables {
         return false;
     }
 
+    int possibleSums(int[] coins, int[] quantity) {
+        HashSet<Integer> possibleSums = new HashSet<>();
+        possibleSums.add(0);
+        for(int i = 0; i < coins.length; i++){
+            HashSet<Integer> news = new HashSet<>();
+            for(int x : possibleSums){
+                for(int j = 1; j <= quantity[i]; j++){
+                    news.add(x+j*coins[i]);
+                }
+            }
+            possibleSums.addAll(news);
+        }
+        return possibleSums.size() - 1 ;
+    }
+
 }
