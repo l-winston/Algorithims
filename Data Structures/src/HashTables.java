@@ -89,4 +89,7 @@ public class HashTables {
         return possibleSums.size() - 1 ;
     }
 
+    public static void main(String[] args){
+
+    }
 }
