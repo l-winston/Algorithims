@@ -94,6 +94,16 @@ public class HashTables {
 
 
 
+        // testing groupingDishes
+        String[][] dishes = new String[][]{
+                {"Salad","Tomato","Cucumber","Salad","Sauce"},
+                {"Pizza","Tomato","Sausage","Sauce","Dough"},
+                {"Quesadilla","Chicken","Cheese","Sauce"},
+                {"Sandwich","Salad","Bread","Tomato","Cheese"}
+        };
+        for(String[] s : ht.groupingDishes(dishes))
+            System.out.println(java.util.Arrays.toString(s));
+
         // testing possibleSums
         int[] coins = new int[]{10, 50, 100};
         int[] quantity = new int[]{1, 2, 1};
