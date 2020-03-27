@@ -90,6 +90,11 @@ public class HashTables {
     }
 
     public static void main(String[] args){
+        HashTables ht = new HashTables();
+
+        int[] coins = new int[]{10, 50, 100};
+        int[] quantity = new int[]{1, 2, 1};
+        System.out.println(ht.possibleSums(coins, quantity));
 
     }
 }
