@@ -33,8 +33,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1198" />
-          <entry key="PLAIN_TEXT" value="773" />
+          <entry key="JAVA" value="1394" />
+          <entry key="PLAIN_TEXT" value="877" />
         </counts>
       </usages-collector>
     </session>
@@ -67,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Data Structures/src/HashTables.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="316">
+              <caret line="107" column="39" lean-forward="true" selection-start-line="107" selection-start-column="39" selection-end-line="107" selection-end-column="39" />
               <folding>
                 <element signature="e#1218#1234#0" expanded="true" />
                 <element signature="e#1579#1595#0" expanded="true" />
@@ -176,7 +176,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585434430475" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585434984161" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.14648438" />
@@ -439,7 +439,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585358718071</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="removed vestigial souts in areFollowingPatterns">
+      <created>1585434368011</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1585434368011</updated>
+    </task>
+    <task id="LOCAL-00031" summary="added testing for containsCloseNums">
+      <created>1585434446391</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1585434446391</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -478,8 +492,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create package for trees" />
-    <MESSAGE value="create main" />
     <MESSAGE value="added mains" />
     <MESSAGE value="added tree class" />
     <MESSAGE value="hasPathWithGivenSum" />
@@ -503,7 +515,9 @@
     <MESSAGE value="comment" />
     <MESSAGE value="groupingDishes test created" />
     <MESSAGE value="areFollowingPatterns test created" />
-    <option name="LAST_COMMIT_MESSAGE" value="areFollowingPatterns test created" />
+    <MESSAGE value="removed vestigial souts in areFollowingPatterns" />
+    <MESSAGE value="added testing for containsCloseNums" />
+    <option name="LAST_COMMIT_MESSAGE" value="added testing for containsCloseNums" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Arrays/src/Arrays.java" />
@@ -553,8 +567,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data Structures/src/HashTables.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="316">
+          <caret line="107" column="39" lean-forward="true" selection-start-line="107" selection-start-column="39" selection-end-line="107" selection-end-column="39" />
           <folding>
             <element signature="e#1218#1234#0" expanded="true" />
             <element signature="e#1579#1595#0" expanded="true" />
