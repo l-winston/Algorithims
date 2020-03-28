@@ -46,7 +46,6 @@ public class HashTables {
                 fwd.put(strings[i], patterns[i]);
             }
         }
-        System.out.print(fwd);
         HashMap<String, String> rev = new HashMap<String, String>();
         for(int i = 0; i < strings.length; i++){
             if(rev.keySet().contains(patterns[i])){
@@ -56,9 +55,9 @@ public class HashTables {
                 rev.put(patterns[i], strings[i]);
             }
         }
-        System.out.print(rev);
         return true;
     }
+
 
     boolean containsCloseNums(int[] nums, int k) {
         HashMap<Integer, Integer> map = new HashMap<>();
