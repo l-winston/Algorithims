@@ -92,8 +92,6 @@ public class HashTables {
     public static void main(String[] args){
         HashTables ht = new HashTables();
 
-
-
         // testing groupingDishes
         String[][] dishes = new String[][]{
                 {"Salad","Tomato","Cucumber","Salad","Sauce"},
@@ -103,6 +101,11 @@ public class HashTables {
         };
         for(String[] s : ht.groupingDishes(dishes))
             System.out.println(java.util.Arrays.toString(s));
+
+        //testing areFollowingPatterns
+        String[] strings = new String[]{"cat", "dog", "dog"};
+        String[] patterns = new String[]{"a", "b", "b"};
+        System.out.println(ht.areFollowingPatterns(strings, patterns));
 
         // testing possibleSums
         int[] coins = new int[]{10, 50, 100};
