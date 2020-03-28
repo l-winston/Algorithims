@@ -101,10 +101,15 @@ public class HashTables {
         for(String[] s : ht.groupingDishes(dishes))
             System.out.println(java.util.Arrays.toString(s));
 
-        //testing areFollowingPatterns
+        // testing areFollowingPatterns
         String[] strings = new String[]{"cat", "dog", "dog"};
         String[] patterns = new String[]{"a", "b", "b"};
         System.out.println(ht.areFollowingPatterns(strings, patterns));
+
+        // testing containsCloseNums
+        int[] nums = new int[]{0, 1, 2, 3, 5, 2};
+        int k = 3;
+        System.out.println(ht.containsCloseNums(nums, k));
 
         // testing possibleSums
         int[] coins = new int[]{10, 50, 100};
