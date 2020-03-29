@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc568d67-b23c-4850-a41a-ec0553b463c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures/src/HashTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/src/HashTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/src/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/src/Arrays.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,13 +16,14 @@
     <session id="-1740457934">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -33,19 +34,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1394" />
-          <entry key="PLAIN_TEXT" value="900" />
+          <entry key="JAVA" value="1439" />
+          <entry key="PLAIN_TEXT" value="942" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Data Structures/src/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="285">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -64,15 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data Structures/src/HashTables.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="125" selection-start-line="125" selection-end-line="125" />
-              <folding>
-                <element signature="e#1218#1234#0" expanded="true" />
-                <element signature="e#1579#1595#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="765">
+              <caret line="127" column="61" lean-forward="true" selection-start-line="93" selection-start-column="8" selection-end-line="127" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -130,19 +127,19 @@
         <option value="$PROJECT_DIR$/LinkedLists/src/Main.java" />
         <option value="$PROJECT_DIR$/Arrays/src/Main.java" />
         <option value="$PROJECT_DIR$/Trees/src/Main.java" />
-        <option value="$PROJECT_DIR$/Data Structures/src/Arrays.java" />
         <option value="$PROJECT_DIR$/Data Structures/src/LinkedLists.java" />
         <option value="$PROJECT_DIR$/Data Structures/src/Trees.java" />
         <option value="$PROJECT_DIR$/Data Structures/src/TreesBasic.java" />
         <option value="$PROJECT_DIR$/Data Structures/src/HashTables.java" />
+        <option value="$PROJECT_DIR$/Data Structures/src/Arrays.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3477" />
-    <option name="y" value="-71" />
-    <option name="width" value="1392" />
-    <option name="height" value="873" />
+    <option name="x" value="-3823" />
+    <option name="y" value="-141" />
+    <option name="width" value="1578" />
+    <option name="height" value="967" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -150,7 +147,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,10 +169,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585435257055" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586804007834" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.14648438" />
@@ -460,14 +457,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585434993101</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="removed bottom divider of headers">
+      <created>1585514481783</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1585514481783</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3477" y="-71" width="1392" height="873" extended-state="0" />
+    <frame x="-3823" y="-141" width="1578" height="967" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17703703" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1595052" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -476,7 +480,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290653" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290653" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -499,7 +503,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added tree class" />
     <MESSAGE value="hasPathWithGivenSum" />
     <MESSAGE value="improve solution" />
     <MESSAGE value="solution fixed" />
@@ -524,7 +527,8 @@
     <MESSAGE value="removed vestigial souts in areFollowingPatterns" />
     <MESSAGE value="added testing for containsCloseNums" />
     <MESSAGE value="added headers for tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added headers for tests" />
+    <MESSAGE value="removed bottom divider of headers" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed bottom divider of headers" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Arrays/src/Arrays.java" />
@@ -551,13 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structures/src/HeapsStacksQueues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data Structures/src/Graphs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -565,21 +562,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structures/src/Arrays.java">
+    <entry file="file://$PROJECT_DIR$/Data Structures/src/HeapsStacksQueues.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data Structures/src/HashTables.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
-          <folding>
-            <element signature="e#1218#1234#0" expanded="true" />
-            <element signature="e#1579#1595#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="765">
+          <caret line="127" column="61" lean-forward="true" selection-start-line="93" selection-start-column="8" selection-end-line="127" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Structures/src/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
