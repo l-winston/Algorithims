@@ -94,7 +94,6 @@ public class HashTables {
         // testing groupingDishes
         System.out.println("---------------------------");
         System.out.println("Testing groupingDishes:");
-        System.out.println("---------------------------");
         String[][] dishes = new String[][]{
                 {"Salad","Tomato","Cucumber","Salad","Sauce"},
                 {"Pizza","Tomato","Sausage","Sauce","Dough"},
@@ -108,7 +107,6 @@ public class HashTables {
         // testing areFollowingPatterns
         System.out.println("---------------------------");
         System.out.println("Testing areFollowingPatterns:");
-        System.out.println("---------------------------");
         String[] strings = new String[]{"cat", "dog", "dog"};
         String[] patterns = new String[]{"a", "b", "b"};
         System.out.println(ht.areFollowingPatterns(strings, patterns));
@@ -117,7 +115,6 @@ public class HashTables {
         // testing containsCloseNums
         System.out.println("---------------------------");
         System.out.println("Testing containsCloseNums:");
-        System.out.println("---------------------------");
         int[] nums = new int[]{0, 1, 2, 3, 5, 2};
         int k = 3;
         System.out.println(ht.containsCloseNums(nums, k));
@@ -126,7 +123,6 @@ public class HashTables {
         // testing possibleSums
         System.out.println("---------------------------");
         System.out.println("Testing possibleSums:");
-        System.out.println("---------------------------");
         int[] coins = new int[]{10, 50, 100};
         int[] quantity = new int[]{1, 2, 1};
         System.out.println(ht.possibleSums(coins, quantity));

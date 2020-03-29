@@ -34,7 +34,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1394" />
-          <entry key="PLAIN_TEXT" value="877" />
+          <entry key="PLAIN_TEXT" value="900" />
         </counts>
       </usages-collector>
     </session>
@@ -67,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Data Structures/src/HashTables.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="107" column="39" lean-forward="true" selection-start-line="107" selection-start-column="39" selection-end-line="107" selection-end-column="39" />
+            <state relative-caret-position="367">
+              <caret line="125" selection-start-line="125" selection-end-line="125" />
               <folding>
                 <element signature="e#1218#1234#0" expanded="true" />
                 <element signature="e#1579#1595#0" expanded="true" />
@@ -176,7 +176,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585434984161" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585435257055" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.14648438" />
@@ -453,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585434446391</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="added headers for tests">
+      <created>1585434993101</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1585434993101</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -492,7 +499,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added mains" />
     <MESSAGE value="added tree class" />
     <MESSAGE value="hasPathWithGivenSum" />
     <MESSAGE value="improve solution" />
@@ -517,7 +523,8 @@
     <MESSAGE value="areFollowingPatterns test created" />
     <MESSAGE value="removed vestigial souts in areFollowingPatterns" />
     <MESSAGE value="added testing for containsCloseNums" />
-    <option name="LAST_COMMIT_MESSAGE" value="added testing for containsCloseNums" />
+    <MESSAGE value="added headers for tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added headers for tests" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Arrays/src/Arrays.java" />
@@ -567,8 +574,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data Structures/src/HashTables.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="107" column="39" lean-forward="true" selection-start-line="107" selection-start-column="39" selection-end-line="107" selection-end-column="39" />
+        <state relative-caret-position="367">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
           <folding>
             <element signature="e#1218#1234#0" expanded="true" />
             <element signature="e#1579#1595#0" expanded="true" />
