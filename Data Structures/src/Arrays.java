@@ -29,7 +29,7 @@ public class Arrays {
         return r;
     }
 
-    public static void main(String[] args){` `
+    public static void main(String[] args){
 
         // testing rotateImage
         System.out.println("---------------------------");
