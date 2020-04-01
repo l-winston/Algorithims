@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc568d67-b23c-4850-a41a-ec0553b463c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures/src/TreesAdvanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/src/TreesAdvanced.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures/src/TreesBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures/src/TreesBasic.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,13 +30,13 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1651" />
-          <entry key="PLAIN_TEXT" value="1099" />
+          <entry key="JAVA" value="1689" />
+          <entry key="PLAIN_TEXT" value="1140" />
         </counts>
       </usages-collector>
     </session>
@@ -46,15 +46,6 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Data Structures/src/Arrays.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="525">
-                  <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Data Structures/src/LinkedLists.java">
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
@@ -62,8 +53,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Data Structures/src/TreesBasic.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="600">
-                  <caret line="44" selection-start-line="44" selection-end-line="47" selection-end-column="5" />
+                <state relative-caret-position="315">
+                  <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -109,6 +100,15 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Data Structures/src/Arrays.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="420">
+                  <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Data Structures/src/TreesAdvanced.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="135">
@@ -147,12 +147,12 @@
         <option value="$PROJECT_DIR$/Trees/src/Main.java" />
         <option value="$PROJECT_DIR$/Data Structures/src/LinkedLists.java" />
         <option value="$PROJECT_DIR$/Data Structures/src/Trees.java" />
-        <option value="$PROJECT_DIR$/Data Structures/src/TreesBasic.java" />
         <option value="$PROJECT_DIR$/Data Structures/src/HashTables.java" />
         <option value="$PROJECT_DIR$/Data Structures/src/Arrays.java" />
         <option value="$PROJECT_DIR$/Data Structures/src/Utility.java" />
         <option value="$PROJECT_DIR$/Data Structures/src/Graphs.java" />
         <option value="$PROJECT_DIR$/Data Structures/src/TreesAdvanced.java" />
+        <option value="$PROJECT_DIR$/Data Structures/src/TreesBasic.java" />
       </list>
     </option>
   </component>
@@ -194,7 +194,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585688148488" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591066951171" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.14648438" />
@@ -522,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585623470967</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="add TreeAdvanced main">
+      <created>1585688163143</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1585688163143</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -564,7 +571,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added istreesymmetric" />
     <MESSAGE value="added heaps stacks queues package" />
     <MESSAGE value="added graphs package" />
     <MESSAGE value="added trees advanced package" />
@@ -589,7 +595,8 @@
     <MESSAGE value="solution for rotateImage" />
     <MESSAGE value="made Arrays static, added tester for rotateImage" />
     <MESSAGE value="create treeDiameter method" />
-    <option name="LAST_COMMIT_MESSAGE" value="create treeDiameter method" />
+    <MESSAGE value="add TreeAdvanced main" />
+    <option name="LAST_COMMIT_MESSAGE" value="add TreeAdvanced main" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Arrays/src/Arrays.java" />
@@ -614,13 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structures/src/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data Structures/src/HeapsStacksQueues.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -631,17 +631,24 @@
     <entry file="file://$PROJECT_DIR$/Data Structures/src/LinkedLists.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structures/src/TreesBasic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="44" selection-start-line="44" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data Structures/src/TreesAdvanced.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Structures/src/TreesBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Structures/src/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
         </state>
       </provider>
     </entry>
