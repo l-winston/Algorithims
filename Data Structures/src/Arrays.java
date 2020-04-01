@@ -2,7 +2,7 @@ import java.util.HashSet;
 
 public class Arrays {
 
-    int firstDuplicate(int[] a) {
+    static int firstDuplicate(int[] a) {
         HashSet<Integer> seen = new HashSet<Integer>();
         for(int i = 0; i < a.length; i++){
             if(seen.contains(a[i]))
@@ -12,14 +12,14 @@ public class Arrays {
         return -1;
     }
 
-    char firstNotRepeatingCharacter(String s) {
+    static char firstNotRepeatingCharacter(String s) {
         for(int i = 0; i < s.length(); i++)
             if(s.indexOf(s.charAt(i)) == s.lastIndexOf(s.charAt(i)))
                 return s.charAt(i);
         return '_';
     }
 
-    int[][] rotateImage(int[][] a) {
+    static int[][] rotateImage(int[][] a) {
         int[][] r = new int[a[0].length][a.length];
 
         for(int i = 0; i < a.length; i++)
@@ -29,9 +29,18 @@ public class Arrays {
         return r;
     }
 
-    public static void main(String[] args){
-        Arrays a = new Arrays();
+    public static void main(String[] args){` `
 
-
+        // testing rotateImage
+        System.out.println("---------------------------");
+        System.out.println("Testing rotateImage:");
+        int[][] a = new int[][]{
+                {1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9}
+        };
+        for(int[] i : rotateImage(a)){
+            System.out.println(java.util.Arrays.toString(i));
+        }
     }
 }
