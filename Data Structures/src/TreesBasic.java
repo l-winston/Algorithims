@@ -3,6 +3,7 @@ public class TreesBasic {
         Tree(T x) {
             value = x;
         }
+        Tree(T x, Tree<T> left, Tree<T> right){ value = x; this.left = left; this.right = right;}
         T value;
         Tree<T> left;
         Tree<T> right;
@@ -44,7 +45,6 @@ public class TreesBasic {
 
     public static void main(String[] args){
         // testing hasPathWithGivenSum
-
 
     }
 }
