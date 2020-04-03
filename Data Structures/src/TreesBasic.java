@@ -44,7 +44,16 @@ public class TreesBasic {
 
 
     public static void main(String[] args){
-        // testing hasPathWithGivenSum
+        /* testing hasPathWithGivenSum
+                4
+               / \
+              1   3
+             /   / \
+            -2  1   2
+              \    / \
+               3  -2 -3
+        */
+
 
     }
 }
