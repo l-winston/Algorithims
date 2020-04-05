@@ -1,5 +1,5 @@
 public class TreesBasic {
-    class Tree<T> {
+    static class Tree<T> {
         Tree(T x) {
             value = x;
         }
@@ -53,7 +53,8 @@ public class TreesBasic {
               \    / \
                3  -2 -3
         */
-
+        Tree<Integer> negTwo = new Tree<Integer>(-2, null, new Tree<Integer>(3));
+        Tree<Integer> two = new Tree<Integer>(2, new Tree<Integer>(-2), new Tree<Integer>(-3));
 
     }
 }
