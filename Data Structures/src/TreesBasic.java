@@ -9,7 +9,7 @@ public class TreesBasic {
         Tree<T> right;
     }
 
-    boolean hasPathWithGivenSum(Tree<Integer> t, int s) {
+    static boolean hasPathWithGivenSum(Tree<Integer> t, int s) {
         if(t == null) return false;
 
         if(t.left == null && t.right == null) {
@@ -19,11 +19,11 @@ public class TreesBasic {
         return hasPathWithGivenSum(t.left, s-t.value) || hasPathWithGivenSum(t.right, s-t.value);
     }
 
-    boolean isTreeSymmetric(Tree<Integer> t) {
+    static boolean isTreeSymmetric(Tree<Integer> t) {
         return treeEquals(t.left, reverse(t.right));
     }
 
-    Tree<Integer> reverse(Tree<Integer> t){
+    static Tree<Integer> reverse(Tree<Integer> t){
         if(t == null)
             return null;
         Tree<Integer> temp = t.left;
@@ -36,7 +36,7 @@ public class TreesBasic {
         return t;
     }
 
-    boolean treeEquals(Tree<Integer> a, Tree<Integer> b){
+    static boolean treeEquals(Tree<Integer> a, Tree<Integer> b){
         if(a == null && b == null)
             return true;
         return a.value == b.value && treeEquals(a.left, b.left) && treeEquals(a.right, b.right);
@@ -63,6 +63,8 @@ public class TreesBasic {
 
         Tree<Integer> t = four;
         int s = 7;
+
+        System.out.println();
 
 
 
