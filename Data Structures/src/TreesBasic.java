@@ -53,6 +53,8 @@ public class TreesBasic {
               \    / \
                3  -2 -3
         */
+        System.out.println("---------------------------");
+        System.out.println("Testing rotateImage:");
         Tree<Integer> negTwo = new Tree<Integer>(-2, null, new Tree<Integer>(3));
         Tree<Integer> two = new Tree<Integer>(2, new Tree<Integer>(-2), new Tree<Integer>(-3));
         Tree<Integer> one = new Tree<Integer>(1, negTwo, null);
@@ -60,6 +62,9 @@ public class TreesBasic {
         Tree<Integer> four = new Tree<Integer>(4, one, three);
 
         Tree<Integer> t = four;
+        int s = 7;
+
+
 
 
     }
