@@ -64,7 +64,7 @@ public class TreesBasic {
         Tree<Integer> t = four;
         int s = 7;
 
-        System.out.println();
+        System.out.println(hasPathWithGivenSum(t, s));
 
 
 
