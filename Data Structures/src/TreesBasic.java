@@ -7,6 +7,9 @@ public class TreesBasic {
         T value;
         Tree<T> left;
         Tree<T> right;
+        public String toString(){
+            return value + "[ " + (left == null ? "x" : left.toString()) + " - " + (right == null ? "x" : right.toString()) + " ]";
+        }
     }
 
     static boolean hasPathWithGivenSum(Tree<Integer> t, int s) {
@@ -63,7 +66,7 @@ public class TreesBasic {
 
         Tree<Integer> t = four;
         int s = 7;
-
+        System.out.println(t);
         System.out.println(hasPathWithGivenSum(t, s));
 
 
