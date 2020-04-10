@@ -54,7 +54,7 @@ public class TreesBasic {
                3  -2 -3
         */
         System.out.println("---------------------------");
-        System.out.println("Testing rotateImage:");
+        System.out.println("Testing hasPathWithGivenSum:");
         Tree<Integer> negTwo = new Tree<Integer>(-2, null, new Tree<Integer>(3));
         Tree<Integer> two = new Tree<Integer>(2, new Tree<Integer>(-2), new Tree<Integer>(-3));
         Tree<Integer> one = new Tree<Integer>(1, negTwo, null);
