@@ -34,6 +34,7 @@ public class Arrays {
         // testing rotateImage
         System.out.println("---------------------------");
         System.out.println("Testing rotateImage:");
+
         int[][] a = new int[][]{
                 {1, 2, 3},
                 {4, 5, 6},
