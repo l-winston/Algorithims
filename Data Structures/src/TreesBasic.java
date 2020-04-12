@@ -42,11 +42,14 @@ public class TreesBasic {
     static boolean treeEquals(Tree<Integer> a, Tree<Integer> b){
         if(a == null && b == null)
             return true;
+        if((a == null) != (b == null))
+            return false;
         return a.value == b.value && treeEquals(a.left, b.left) && treeEquals(a.right, b.right);
     }
 
 
     public static void main(String[] args){
+
         /* testing hasPathWithGivenSum
                 4
                / \
@@ -67,7 +70,6 @@ public class TreesBasic {
         Tree<Integer> four = new Tree<Integer>(4, one, three);
         Tree<Integer> t = four;
         int s = 7;
-        System.out.println(t);
         System.out.println(hasPathWithGivenSum(t, s));
 
 

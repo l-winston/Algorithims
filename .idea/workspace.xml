@@ -35,8 +35,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2609" />
-          <entry key="PLAIN_TEXT" value="1467" />
+          <entry key="JAVA" value="2718" />
+          <entry key="PLAIN_TEXT" value="1549" />
         </counts>
       </usages-collector>
     </session>
@@ -53,8 +53,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Data Structures/src/TreesBasic.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="335">
-                  <caret line="61" column="69" selection-start-line="61" selection-start-column="69" selection-end-line="61" selection-end-column="69" />
+                <state relative-caret-position="616">
+                  <caret line="46" column="73" lean-forward="true" selection-start-line="46" selection-start-column="73" selection-end-line="46" selection-end-column="73" />
                   <folding>
                     <element signature="e#1424#1433#0" expanded="true" />
                     <element signature="e#1503#1512#0" expanded="true" />
@@ -106,20 +106,20 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Data Structures/src/Arrays.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+                <state relative-caret-position="540">
+                  <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Data Structures/src/TreesAdvanced.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+                <state relative-caret-position="105">
+                  <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
                   <folding>
                     <element signature="e#72#73#0" expanded="true" />
                     <element signature="e#95#96#0" expanded="true" />
@@ -159,10 +159,10 @@
         <option value="$PROJECT_DIR$/Data Structures/src/LinkedLists.java" />
         <option value="$PROJECT_DIR$/Data Structures/src/Trees.java" />
         <option value="$PROJECT_DIR$/Data Structures/src/HashTables.java" />
-        <option value="$PROJECT_DIR$/Data Structures/src/Arrays.java" />
         <option value="$PROJECT_DIR$/Data Structures/src/Utility.java" />
         <option value="$PROJECT_DIR$/Data Structures/src/Graphs.java" />
         <option value="$PROJECT_DIR$/Data Structures/src/TreesAdvanced.java" />
+        <option value="$PROJECT_DIR$/Data Structures/src/Arrays.java" />
         <option value="$PROJECT_DIR$/Data Structures/src/TreesBasic.java" />
       </list>
     </option>
@@ -205,7 +205,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586644401504" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586719279101" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.14648438" />
@@ -380,13 +380,6 @@
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
       <updated>1583038521971</updated>
-    </task>
-    <task id="LOCAL-00015" summary="added heaps stacks queues package">
-      <created>1580360198042</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1580360198042</updated>
     </task>
     <task id="LOCAL-00016" summary="added graphs package">
       <created>1583076909337</created>
@@ -619,14 +612,28 @@
       <option name="project" value="LOCAL" />
       <updated>1586554389361</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="fixed &quot;false&quot; test case">
+      <created>1586644414292</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1586644414292</updated>
+    </task>
+    <task id="LOCAL-00050" summary="label constructing hpwgs test value">
+      <created>1586644473201</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1586644473201</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1916" y="-157" width="1916" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12433298" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -635,7 +642,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32746115" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.11502591" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -661,8 +668,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="solved possibleSums" />
-    <MESSAGE value="created HashTables main and made configuration for it" />
     <MESSAGE value="populated HashTables main with tester for possibleSums" />
     <MESSAGE value="comment" />
     <MESSAGE value="groupingDishes test created" />
@@ -686,7 +691,9 @@
     <MESSAGE value="temp return for treeDiameter" />
     <MESSAGE value="fixed testname in printout" />
     <MESSAGE value="added tree custom toString" />
-    <option name="LAST_COMMIT_MESSAGE" value="added tree custom toString" />
+    <MESSAGE value="fixed &quot;false&quot; test case" />
+    <MESSAGE value="label constructing hpwgs test value" />
+    <option name="LAST_COMMIT_MESSAGE" value="label constructing hpwgs test value" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Arrays/src/Arrays.java" />
@@ -721,13 +728,6 @@
     <entry file="file://$PROJECT_DIR$/Data Structures/src/LinkedLists.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structures/src/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data Structures/src/TreesAdvanced.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -735,10 +735,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Data Structures/src/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Data Structures/src/TreesBasic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="61" column="69" selection-start-line="61" selection-start-column="69" selection-end-line="61" selection-end-column="69" />
+        <state relative-caret-position="616">
+          <caret line="46" column="73" lean-forward="true" selection-start-line="46" selection-start-column="73" selection-end-line="46" selection-end-column="73" />
           <folding>
             <element signature="e#1424#1433#0" expanded="true" />
             <element signature="e#1503#1512#0" expanded="true" />
